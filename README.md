@@ -22,6 +22,7 @@ int main() {
 }
 ```
 * The first line of code in the main function compresses the input file "test999words.txt" to the output file "compressed.HC", after that it outputs the compression ratio and efficiency.
-* The second line just decompresses any compressed file using this tool.
+* The second line just decompresses "compressed.HC" file.
+* Note that the tool can only decompress files that are compressed by the tool itself.
 * Note that the second line is independent of the first line. Both can be separated to different programs.
 
